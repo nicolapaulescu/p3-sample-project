@@ -9,6 +9,10 @@ public class Main {
         InputDevice id = new InputDevice();
         OutputDevice od = new OutputDevice();
         Application app = new Application(id, od);
+        int[] array = new int[6];
+        int number = array[7];
+        Integer.parseInt("abc");
+        int v = 0;int y = 100/v;
 
         app.run();
     }
